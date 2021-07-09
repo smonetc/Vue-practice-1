@@ -7,6 +7,7 @@ const app = Vue.createApp({
   },
   methods:{
     add(num){
+      //in vue using this references the objects found in our data section
       this.counter++
     },
     sub(num){
